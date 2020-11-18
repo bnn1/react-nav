@@ -1,0 +1,15 @@
+.navmenu {
+  height: 100vh;
+  background-color: #4fe3;
+  width: 80%;
+  max-width: 300px;
+  transition: 0.5s;
+}
+
+.navmenu.hidden {
+  transform: translateX(-100%);
+}
+
+.navmenu.toggled {
+  transform: translateX(0);
+}
